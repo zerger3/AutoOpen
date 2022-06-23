@@ -75,8 +75,7 @@ namespace AutoOpen
                     var isBlacklisted = doorBlacklist != null && doorBlacklist.Contains(entity.Path);
 
 
-                    if (entity.HasComponent<TriggerableBlockage>() && entity.HasComponent<Targetable>() &&
-                        entity.Path.ToLower().Contains("door"))
+                    if (entity.HasComponent<TriggerableBlockage>() && entity.HasComponent<Targetable>() )
                     {
                         var isClosed = entity.GetComponent<TriggerableBlockage>().IsClosed;
 
