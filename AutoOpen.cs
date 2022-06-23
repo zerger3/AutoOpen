@@ -78,7 +78,7 @@ namespace AutoOpen
                     if (entity.HasComponent<TriggerableBlockage>() && entity.HasComponent<Targetable>() &&
                         
                          (
-                          entity.Path.ToLower().Contains("door") || entity.Path.ToLower().Contains("door_basic") && !entity.Path.ToLower().Contains("door_npclockpicker") 
+                          entity.Path.ToLower().Contains("door") || entity.Path.ToLower().Contains("door_basic") && !entity.Path.ToLower().Contains("npclockpicker") 
                          )
                         
                         )
