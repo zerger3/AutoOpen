@@ -9,4 +9,5 @@ fix:
 add them to the blacklist like:
 
 Metadata/Terrain/Leagues/Heist/Objects/Level/Door_NPCExplosive
+
 Metadata/Terrain/Leagues/Heist/Objects/Level/Door_NPCLockpicker
